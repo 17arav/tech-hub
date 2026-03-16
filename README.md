@@ -35,7 +35,6 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 https://github.com/user-attachments/assets/297b39bd-db95-4a10-9ff4-9a1245e6ff68
 
 GIF created with ...  Imgur
