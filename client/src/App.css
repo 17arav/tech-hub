@@ -1,0 +1,84 @@
+/* Global Dark Theme */
+/* Global Dark Theme with Background Image */
+body {
+  background-color: #0d1117;
+  /* This adds a dark tint OVER the image so you can still read your text! */
+  background-image: linear-gradient(
+      rgba(13, 17, 23, 0.85), 
+      rgba(13, 17, 23, 0.95)
+    ),
+    /* The awesome Hacker House tech background */
+    url('https://images.unsplash.com/photo-1518770660439-4636190af475'); 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Keeps the background still while you scroll */
+  background-repeat: no-repeat;
+  color: #c9d1d9;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+h1, h2, h3 {
+  color: #58a6ff;
+  text-align: center;
+}
+
+/* The Floorplan Grid */
+.floorplan {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 2 columns to look like a building layout */
+  gap: 30px;
+  max-width: 700px;
+  margin: 3rem auto;
+  padding: 20px;
+  background-color: #161b22;
+  border: 2px solid #30363d;
+  border-radius: 15px;
+}
+
+/* Individual Room Cards */
+.room-card {
+  background-color: #21262d;
+  border: 1px solid #30363d;
+  border-radius: 10px;
+  padding: 4rem 1rem; /* Tall padding to look like a room */
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.room-card h3 {
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Neon Hover Effect! */
+.room-card:hover {
+  transform: translateY(-5px);
+  border-color: #58a6ff;
+  box-shadow: 0 0 20px rgba(88, 166, 255, 0.4);
+  background-color: #1f2428;
+}
+
+/* Cool Button Style */
+.neon-btn {
+  background-color: #238636;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  display: block;
+  margin: 20px auto;
+}
+
+.neon-btn:hover {
+  background-color: #2ea043;
+}
