@@ -35,12 +35,16 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='https://i.imgur.com/N6zeH7p.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+https://github.com/user-attachments/assets/297b39bd-db95-4a10-9ff4-9a1245e6ff68
 
 GIF created with ...  Imgur
 ## Notes
 
-One of the main challenges was wiring up the backend Express API to properly serve data to the frontend React application, specifically ensuring that the dynamic route parameters (`useParams`) in React matched the API queries to the PostgreSQL database.
+One of the main challenges was wiring up the backend Express API to properly serve data to the frontend React application, specifically ensuring that the dynamic route parameters (`useParams`)
+
+
+ in React matched the API queries to the PostgreSQL database.
 
 ## License
 
